@@ -1,0 +1,14 @@
+E:\apps\c++\programing advice course\RestfullApi\StudentAPIclient\bin\Debug\net8.0\StudentAPIclient.exe
+E:\apps\c++\programing advice course\RestfullApi\StudentAPIclient\bin\Debug\net8.0\StudentAPIclient.deps.json
+E:\apps\c++\programing advice course\RestfullApi\StudentAPIclient\bin\Debug\net8.0\StudentAPIclient.runtimeconfig.json
+E:\apps\c++\programing advice course\RestfullApi\StudentAPIclient\bin\Debug\net8.0\StudentAPIclient.dll
+E:\apps\c++\programing advice course\RestfullApi\StudentAPIclient\bin\Debug\net8.0\StudentAPIclient.pdb
+E:\apps\c++\programing advice course\RestfullApi\StudentAPIclient\obj\Debug\net8.0\StudentAPIclient.GeneratedMSBuildEditorConfig.editorconfig
+E:\apps\c++\programing advice course\RestfullApi\StudentAPIclient\obj\Debug\net8.0\StudentAPIclient.AssemblyInfoInputs.cache
+E:\apps\c++\programing advice course\RestfullApi\StudentAPIclient\obj\Debug\net8.0\StudentAPIclient.AssemblyInfo.cs
+E:\apps\c++\programing advice course\RestfullApi\StudentAPIclient\obj\Debug\net8.0\StudentAPIclient.csproj.CoreCompileInputs.cache
+E:\apps\c++\programing advice course\RestfullApi\StudentAPIclient\obj\Debug\net8.0\StudentAPIclient.dll
+E:\apps\c++\programing advice course\RestfullApi\StudentAPIclient\obj\Debug\net8.0\refint\StudentAPIclient.dll
+E:\apps\c++\programing advice course\RestfullApi\StudentAPIclient\obj\Debug\net8.0\StudentAPIclient.pdb
+E:\apps\c++\programing advice course\RestfullApi\StudentAPIclient\obj\Debug\net8.0\StudentAPIclient.genruntimeconfig.cache
+E:\apps\c++\programing advice course\RestfullApi\StudentAPIclient\obj\Debug\net8.0\ref\StudentAPIclient.dll
