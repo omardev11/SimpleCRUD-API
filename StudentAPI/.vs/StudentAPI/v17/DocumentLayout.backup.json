@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\apps\\c\u002B\u002B\\programing advice course\\RestfullApi\\StudentAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1D51AF1-2D7A-4F13-991F-7DECEF01C519}|StudentAPI.csproj|e:\\apps\\c\u002B\u002B\\programing advice course\\restfullapi\\studentapi\\controllers\\studentapicontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1D51AF1-2D7A-4F13-991F-7DECEF01C519}|StudentAPI.csproj|solutionrelative:controllers\\studentapicontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1D51AF1-2D7A-4F13-991F-7DECEF01C519}|StudentAPI.csproj|e:\\apps\\c\u002B\u002B\\programing advice course\\restfullapi\\studentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1D51AF1-2D7A-4F13-991F-7DECEF01C519}|StudentAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D86408-4C01-484A-B44B-7A2C69839FFA}|..\\StudentBusinessLayerAPI\\StudentBusinessLayerAPI.csproj|e:\\apps\\c\u002B\u002B\\programing advice course\\restfullapi\\studentbusinesslayerapi\\studentbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6383E330-A563-4282-8DA7-1A47EC3DEAA4}|..\\StudentDataAccessLayerAPI\\StudentDataAccessLayerAPI.csproj|e:\\apps\\c\u002B\u002B\\programing advice course\\restfullapi\\studentdataaccesslayerapi\\studentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\apps\\c\u002B\u002B\\programing advice course\\RestfullApi\\StudentAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\apps\\c\u002B\u002B\\programing advice course\\RestfullApi\\StudentAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAuwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T14:22:52.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentAPIControler.cs",
+              "DocumentMoniker": "E:\\apps\\c\u002B\u002B\\programing advice course\\RestfullApi\\StudentAPI\\Controllers\\StudentAPIControler.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentAPIControler.cs",
+              "ToolTip": "E:\\apps\\c\u002B\u002B\\programing advice course\\RestfullApi\\StudentAPI\\Controllers\\StudentAPIControler.cs",
+              "RelativeToolTip": "Controllers\\StudentAPIControler.cs",
+              "ViewState": "AgIAALQAAAAAAAAAAAAswCIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T14:49:02.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentBusiness.cs",
+              "DocumentMoniker": "E:\\apps\\c\u002B\u002B\\programing advice course\\RestfullApi\\StudentBusinessLayerAPI\\StudentBusiness.cs",
+              "RelativeDocumentMoniker": "..\\StudentBusinessLayerAPI\\StudentBusiness.cs",
+              "ToolTip": "E:\\apps\\c\u002B\u002B\\programing advice course\\RestfullApi\\StudentBusinessLayerAPI\\StudentBusiness.cs",
+              "RelativeToolTip": "..\\StudentBusinessLayerAPI\\StudentBusiness.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wCcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T14:43:34.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentData.cs",
+              "DocumentMoniker": "E:\\apps\\c\u002B\u002B\\programing advice course\\RestfullApi\\StudentDataAccessLayerAPI\\StudentData.cs",
+              "RelativeDocumentMoniker": "..\\StudentDataAccessLayerAPI\\StudentData.cs",
+              "ToolTip": "E:\\apps\\c\u002B\u002B\\programing advice course\\RestfullApi\\StudentDataAccessLayerAPI\\StudentData.cs",
+              "RelativeToolTip": "..\\StudentDataAccessLayerAPI\\StudentData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgBAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T14:13:17.883Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

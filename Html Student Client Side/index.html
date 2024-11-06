@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Management</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMA4Nc6chNjWfTph02VEXf5VAF6TjVR7Av6P/NF"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      /* Basic styling for the table */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 8px;
+        text-align: left;
+        border: 1px solid #ddd;
+      }
+      th {
+        background-color: #f4f4f4;
+      }
+      /* Modal styles  */
+      #optionsModal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.4);
+        padding-top: 60px;
+      }
+      .modal-content {
+        background-color: #fefefe;
+        margin: 5% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+      }
+      /* Styling for form inputs and buttons */
+      .form {
+        margin-bottom: 20px;
+      }
+      .form input {
+        display: block;
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      .form-buttons {
+        display: flex;
+        justify-content: space-between;
+      }
+      .form-buttons button {
+        margin-top: 10px;
+        flex: 1; /* Makes buttons take equal space */
+        margin-right: 10px;
+      }
+      .form-buttons button:last-child {
+        margin-right: 0; /* Remove right margin for the last button */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1><i class="fas fa-graduation-cap"></i> Student Management</h1>
+      <p class="description">
+        Manage student records easily with options to add, update, delete, and
+        view details of students.
+      </p>
+
+      <!-- Form for adding/updating a student -->
+      <div class="form">
+        <label for="studentId">Student ID (for update/delete):</label>
+        <input type="text" id="studentId" placeholder="Enter Student ID" />
+
+        <label for="studentName">Student Name:</label>
+        <input type="text" id="studentName" placeholder="Enter Student Name" />
+
+        <label for="studentAge">Age:</label>
+        <input type="number" id="studentAge" placeholder="Enter Student Age" />
+
+        <label for="studentGrade">Grade:</label>
+        <input
+          type="number"
+          id="studentGrade"
+          placeholder="Enter Student Grade"
+        />
+
+        <div class="form-buttons">
+          <button onclick="addNewStudent()" class="btn add">
+            <i class="fas fa-plus-circle"></i> Add Student
+          </button>
+          <button onclick="updateStudent()" class="btn update">
+            <i class="fas fa-edit"></i> Update Student
+          </button>
+          <button onclick="deleteStudent()" class="btn delete">
+            <i class="fas fa-trash-alt"></i> Delete Student
+          </button>
+        </div>
+      </div>
+
+      <!-- Buttons for other operations -->
+      <div class="buttons">
+        <button onclick="getAllStudents()" class="btn">
+          <i class="fas fa-users"></i> Get All Students
+        </button>
+        <button onclick="getPassedStudents()" class="btn">
+          <i class="fas fa-check-circle"></i> Get Passed Students
+        </button>
+        <button onclick="getStudentById()" class="btn">
+          <i class="fas fa-user"></i> Get Student by ID
+        </button>
+        <button onclick="GetAvarageStudentsGrade()" class="btn">
+          <i class="fas fa-user"></i> Get Avarage Of Students Grade
+        </button>
+      </div>
+
+      <h2>Students Data</h2>
+      <table id="studentsTable">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Grade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Rows will be added here dynamically -->
+        </tbody>
+      </table>
+
+      <!-- Modal for messages -->
+      <div id="messageModal" style="display: none">
+        <div class="modal-content">
+          <span id="closeModal" style="cursor: pointer">&times; Close</span>
+          <h3>Message</h3>
+          <p id="modalMessage"></p>
+        </div>
+      </div>
+
+      <!-- Modal for options -->
+      <div id="optionsModal">
+        <div class="modal-content">
+          <h3>Options</h3>
+          <button id="updateButton">Update Student</button>
+          <button id="deleteButton">Delete Student</button>
+          <button id="closeButton">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
